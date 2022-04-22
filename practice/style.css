@@ -1,0 +1,18 @@
+
+.container-fluid a
+{
+    font-size: 40px;
+   
+}
+.nav-item  a
+{
+    font-size: 30px;
+    
+}
+
+.card-group{
+    display: flex;
+
+    
+}
+
