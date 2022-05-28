@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    @media screen and (min-width:768px) 
+{
+    /*!!!!!! 公司簡介 !!!!!!  */
+    .introduce .wrap
+    {
+    display: flex;
+    }
+    .introduce .pic
+    {
+        width: 100%;
+    }
+    .introduce .wrap p
+    {
+        font-size: 30px;
+        margin: 30px;
+    }  
+}
