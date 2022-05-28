@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.home .wrap .item1  img
+{
+width: 80%;
+margin: 10%;
+}
+
+
+
+@media screen and (min-width:768px) 
+{
+
+    .home .wrap
+    {
+        display: flex;
+        width: 100%;
+        margin: 0 0 0 0;
+        background-color: rgba(255, 255, 255, 0.034); 
+        vertical-align: auto;  
+    }
+    
+    /* 產品應用 */
+    .home .wrap .item1  h2
+    {
+        font-size: 36px;
+        margin: 30px 0px 30px 80px;
+        color: blue;
+    } 
+    .home .wrap .item1
+    {
+        background-color: rgb(228, 228, 228);
+        width: 100%;
+        
+    }
+    .home .wrap .item1 .pic-group 
+    {
+    display: flex;
+    }
+    .home .wrap .item1 .pic
+    {
+    margin: 10px;
+    text-align: center;
+    }
+    
+    
+    .home .wrap .item1  img
+    {
+    width: 100%;
+    margin: 0px;
+    }
+    
+    
+    
+    
+    
+    
+    /* 服務流程 */
+    
+    .survice h2
+    {
+        font-size: 36px;
+        margin: 30px 0px 30px 80px;
+        color: blue;
+    }
+    
+    .card-body   a
+    {
+        display: inline-block;
+        font-size: 20px;
+        margin: 20px;  
+        text-align: center;
+    }
+    
+    
+    
+    
+    /*銘昌行地址*/
+    .footer
+    {
+    width: 100%;
+    background-color: rgba(248, 248, 255, 0.938);
+    color:black;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 10px;
+    }
+    .footer font
+    {margin: 10px;}
+}
